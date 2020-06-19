@@ -1,0 +1,124 @@
+.carousel-inner {
+    max-height: 600px;
+}
+
+.carousel-caption {
+    top: 20%;
+}
+
+.carousel-inner img {
+    transform: none;
+}
+
+
+.carousel-caption h2 {
+    line-height: 2rem;
+}
+
+
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.7rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 0.4rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+h3.card-title {
+    font-weight: lighter;
+    color: #041608;
+    font-size: 2rem;
+}
+
+h4.card-title {
+    text-transform: none;
+    font-size: 1rem;
+    color: #777777;
+    font-weight: bold;
+}
+
+h5  {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1.3rem 0;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    text-transform: none;
+    color: #777777;
+    font-weight: normal;
+}
+
+
+
+
+
+.card {
+    border: 0;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 0;
+    overflow: visible;
+    padding-left: 4px;
+}
+
+.progress-bar {
+    height: 2px;
+    margin-top: 4px;
+    background: #a1a1a1;
+}
+
+.progress span {
+    width: 12px;
+    height: 12px;
+    border-radius: 1rem;
+    background-color: white;
+    margin: 0;
+    border: solid 4px black;
+}
+
+.progress i {
+    position: relative;
+    top: -30px;
+    left: -15px;
+    font-size: 1.8rem;
+}
+
+.progress i:after {
+    position: relative;
+    top: -9px;
+    left: -27px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: normal;
+    
+}
+
+.prog-1:after {
+    content: '90%';
+}
+.prog-2:after {
+    content: '95%';
+}
+.prog-3:after {
+    content: '50%';
+}
+.prog-4:after {
+    content: '85%';
+}
+
+
+
+

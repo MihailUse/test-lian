@@ -1,0 +1,135 @@
+.carousel-inner {
+    max-height: 600px;
+}
+
+.carousel-caption {
+    top: 20%;
+}
+
+.carousel-inner img {
+    transform: none;
+}
+
+
+.carousel-caption h2 {
+    line-height: 2rem;
+}
+
+
+
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: lighter;
+    letter-spacing: 0.7rem;
+    color: #000;
+}
+
+h4 {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+hr {
+    background: #000;
+    width: 20%;
+    margin: 1rem 0 3rem 0;
+}
+
+
+h5.card-title {
+    font-weight: lighter;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 2rem 0;
+    text-transform: none;
+    color: #777777;
+    font-weight: normal;
+}
+
+p span {
+    color: #000;
+    font-weight: normal;
+}
+
+
+
+
+
+.card {
+    border: 0;
+    margin: 3rem 0;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 220px;
+}
+
+.input-group:first-of-type .form-control {
+    border-left: 5px solid #afafaf;
+}
+
+.input-group {
+    width: 49% !important;
+}
+
+.input-group:last-of-type {
+    width: 100% !important;
+}
+
+form button {
+    text-transform: uppercase;
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 3rem;
+}
+
+.map {
+    overflow: hidden;
+    max-height: 360px;
+}
+
+.img-fluid {
+    filter: grayscale(1);
+    width: 100%;
+    transform: translateY(-4rem);
+}
+
+.map-inf {
+    max-width: 325px;
+    position: relative;
+    margin-left: 44%;
+    top: -36rem;
+    background: white;
+    padding: 1.5rem;
+}
+
+.map-inf p {
+    margin: 1rem;
+}
+
+.map-inf i {
+    position: relative;
+    top: -1rem;
+    float: right;
+}
+
+.map-inf i:last-of-type {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    left: 45%;
+    top: 9rem;
+    transform: scaleY(5);
+}
+
+

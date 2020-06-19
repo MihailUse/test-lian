@@ -1,0 +1,144 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background-color: #fafafa;
+}
+
+nav {
+    box-shadow: 0px -10px 20px -5px black;
+}
+
+
+
+
+.nav-link {
+    font-weight: bold;
+    display: inline-block;
+    color: #777777;
+}
+
+.active {
+    color: #000;
+}
+
+
+
+.nav-item-icon {
+    background: #000;
+    width: 25px;
+    height: 2px;
+    border-radius: 2px;
+}
+
+footer {
+    box-shadow: 0px 10px 20px -5px black;
+    background-color: white;
+}
+
+/*******************slider***************/
+
+.carousel-inner {
+    max-height: 650px;
+}
+
+.carousel-inner img {
+    position: relative;
+    transform: translateY(-20%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    padding: 1rem 1.2rem;
+    border-radius: 10rem;
+    border: 1px solid white;
+    color: white;
+}
+
+.carousel-control-next:hover i,
+.carousel-control-prev:hover i {
+    background-color: black;
+    border: black;
+}
+
+
+
+.carousel-indicator {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.carousel-indicator span {
+    width: 15px;
+    height: 14px;
+    border-radius: 1rem;
+    background-color: white;
+    margin: 2rem 0.4rem;
+}
+
+.carousel-indicator span.active {
+    border: solid 4px black;
+}
+
+.carousel-caption {
+    width: max-content;
+    height: min-content;
+    top: 25%;
+    bottom: 0;
+    letter-spacing: 0.4rem;
+}
+
+.carousel-caption h1 {
+    background: #000000;
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 0 4rem;
+}
+
+.carousel-caption h2 {
+    color: black;
+    background: none;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-weight: lighter;
+}
+
+
+@media(max-width:1200px) {
+
+    .carousel-inner img {
+        transform: none;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:860px) {
+
+    .carousel-caption {
+        font-size: 0.3rem;
+        width: min-content;
+        text-align: center;
+    }
+}
