@@ -56,28 +56,28 @@
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         <span></span>
-                        <i class="fas fa-comment-alt prog-1"></i>
+                        <i class="fa fa-comment-alt prog-1"></i>
                     </div>
 
                     <h5>Branding</h5>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         <span></span>
-                        <i class="fas fa-comment-alt prog-2"></i>
+                        <i class="fa fa-comment-alt prog-2"></i>
                     </div>
 
                     <h5>Photography</h5>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         <span></span>
-                        <i class="fas fa-comment-alt prog-3"></i>
+                        <i class="fa fa-comment-alt prog-3"></i>
                     </div>
 
                     <h5>Web Design</h5>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         <span></span>
-                        <i class="fas fa-comment-alt prog-4"></i>
+                        <i class="fa fa-comment-alt prog-4"></i>
                     </div>
 
 

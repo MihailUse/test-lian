@@ -1,4 +1,8 @@
-.nav {
+.carousel-caption h2 {
+    font-weight: normal;
+}
+
+.filter {
     min-height: 60px;
     border-top: solid 1px #dadada;
     border-bottom: solid 1px #dadada;
@@ -7,8 +11,17 @@
     padding: 0;
 }
 
-.carousel-caption h2 {
-    font-weight: normal;
+.filter input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.filter input:checked + label {
+    transform: scale(1.1);
+    color: #5c5c5c;
 }
 
 .breadcrumb {
@@ -16,17 +29,11 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    font-size: 2.5rem;
-    font-weight: lighter;
-    position: relative;
-    top: 5px;
+    transform: scaleY(4) scaleX(2);
     color: #dadada;
 }
 
-
-
 @media(max-width:1200px) {
-
     .breadcrumb-item+.breadcrumb-item::before {
         content: "";
     }
@@ -36,7 +43,9 @@
     }
 }
 
-
+.nav-img, .details {
+    display: none;
+}
 
 /**************************************/
 
@@ -83,7 +92,6 @@
 
 .nav-img {
     padding: 10px;
-    display: none;
 }
 
 .nav-img button {
