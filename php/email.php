@@ -18,7 +18,7 @@ function testInput($value)
     return $value;
 }
 
-$subject = '=?utf-8?B?'.base64_encode('Сообщение с сайта Lian').'?=';
+$subject = '=?utf-8?B?' . base64_encode('Сообщение с сайта Lian') . '?=';
 $message = wordwrap($message, 70, "\r\n");  // На случай если какая-то строка письма длиннее 70 символов
 $headers = 'From: $email' . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
@@ -27,5 +27,4 @@ $headers = 'From: $email' . "\r\n" .
 mail('alkaevmih@gmail.com', $subject, $massage, $headers);
 
 //echo '<script type="text/javascript"> function show_alert() { alert("Спасибо за сообщение"); } </script>';
-header('location: ../pages/contact.php'); 
-
+header('location: ../pages/contact.php');

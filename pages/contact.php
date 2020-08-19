@@ -55,12 +55,12 @@ require_once('../blocks/head.php');
 
         <div class="container-fluid">
             <div class="map-inf">
-                <i id="close" class="fas fa-times"></i>
+                <i id="close" class="fa fa-times"></i>
                 <p><span>Mulitix Big Wordpress Theme</span></p>
                 <p>110-00 Rockaway Blvd</p>
                 <p>South Ozone Park, NY 11420</p>
 
-                <i class="fas fa-caret-down"></i>
+                <i class="fa fa-caret-down"></i>
             </div>
         </div>
     </div>

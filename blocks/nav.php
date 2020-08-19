@@ -17,7 +17,7 @@
                 <li class="nav-item"><a href="../pages/blog.php" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="../pages/contact.php" class="nav-link">Contact</a></li>
             </ul>
-            <span class="fas fa-search text-black-50"></span>
+            <span class="fa fa-search text-black-50"></span>
         </div>
     </div>
 </nav>
