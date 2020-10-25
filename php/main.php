@@ -1,17 +1,17 @@
 <?php
 
 class base {
-    const DB_HOSTNAME = 'localhost';  // адрес сервера
-    const DB_NAME = 'user_log';       // имя базы данных
-    const DB_USERNAME = 'root';       // имя пользователя
-    const DB_PASSWORD = '';           // пароль
+    const DB_HOSTNAME = 'localhost';      // адрес сервера
+    const DB_NAME = 'user_log';           // имя базы данных
+    const DB_USERNAME = 'root';           // имя пользователя
+    const DB_PASSWORD = 'root';           // пароль
     public $mysqli;
     public $resultArray;
 
     function __construct() {
         $this->mysqli = @new mysqli(self::DB_HOSTNAME, self::DB_USERNAME, self::DB_PASSWORD, self::DB_NAME);
         if ($this->mysqli->connect_errno) {
-            $message = array('error' => "Не удалось подключиться: " . mysqli_connect_error());
+            $message = array('message' => "Не удалось подключиться: " . mysqli_connect_error());
             exit(json_encode($message));
         }
     }

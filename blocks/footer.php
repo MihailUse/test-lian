@@ -9,8 +9,7 @@
             <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-facebook-f"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-twitter"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-dribbble"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-pinterest-p"></i></a>
-            </li>
+            <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-pinterest-p"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link mx-md-4"><i class="fa fa-instagram"></i></a></li>
         </ul>
     </div>

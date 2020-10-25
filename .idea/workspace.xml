@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b320b19-11d2-491d-9d0b-193fc1eb5d3e" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/email.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/email.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +50,9 @@
       </set>
     </option>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWebServerValidation" path_to_validation_script="D:\open server\OpenServer\domains\Lian\php" selected_validation_type="LOCAL" web_path_to_validation_script="http://Lian/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1gN3Ire4awPF6TkNUq0u5sGAj9q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,7 +61,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-lian.com" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,6 +85,31 @@
       <option name="presentableId" value="Default" />
       <updated>1597941148105</updated>
       <workItem from="1597941150052" duration="1098000" />
+      <workItem from="1597943232674" duration="1287000" />
+      <workItem from="1597949975075" duration="1463000" />
+      <workItem from="1597997773352" duration="8000" />
+      <workItem from="1597998140760" duration="38000" />
+      <workItem from="1597998200543" duration="14000" />
+      <workItem from="1597999265259" duration="18000" />
+      <workItem from="1597999351145" duration="393000" />
+      <workItem from="1597999764440" duration="109000" />
+      <workItem from="1597999876226" duration="732000" />
+      <workItem from="1598001321338" duration="110000" />
+      <workItem from="1598001577284" duration="246000" />
+      <workItem from="1598002218944" duration="233000" />
+      <workItem from="1598002477590" duration="178000" />
+      <workItem from="1598002694271" duration="58000" />
+      <workItem from="1598083356594" duration="1899000" />
+      <workItem from="1598086951324" duration="963000" />
+      <workItem from="1598087962513" duration="496000" />
+      <workItem from="1598089217135" duration="33000" />
+      <workItem from="1598089267382" duration="25000" />
+      <workItem from="1598089365294" duration="1639000" />
+      <workItem from="1598788894197" duration="2867000" />
+      <workItem from="1598875064257" duration="651000" />
+      <workItem from="1598881163062" duration="1854000" />
+      <workItem from="1598960159846" duration="1245000" />
+      <workItem from="1603611928830" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1597941980894</created>
@@ -73,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597941980894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add DB file&#10;fix files">
+      <created>1597943338934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597943338934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,15 +141,74 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="add DB file&#10;fix files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DB file&#10;fix files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1597942001085">
+    <state x="378" y="176" key="#CLI_Interpreters" timestamp="1598086983642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="378" y="176" key="#CLI_Interpreters/0.0.1920.1080@0.0.1920.1080" timestamp="1598086983642" />
+    <state x="759" y="253" width="608" height="587" key="#Web_Browsers" timestamp="1598087165425">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="759" y="253" width="608" height="587" key="#Web_Browsers/0.0.1920.1080@0.0.1920.1080" timestamp="1598087165425" />
+    <state x="675" y="361" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1598001750721">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="675" y="361" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1920.1080@0.0.1920.1080" timestamp="1598001750721" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1598789259762">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/1920.16.1680.1050@0.0.1920.1080" timestamp="1598789259762" />
+    <state x="1189" y="355" key="FileChooserDialogImpl" timestamp="1598960198712">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1189" y="355" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598960198712" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1598088458436">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598088458436" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1598088458436">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598088458436" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1598088458436">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598088458436" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1598088458436">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598088458436" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1598088099082">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598088099082" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1603612023241">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.16.1680.1050@0.0.1920.1080" timestamp="1603612023241" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1597942001085" />
+    <state x="571" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598083635624">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="571" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1598083635624" />
+    <state x="563" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1598083960937">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="563" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598083960937" />
+    <state x="2351" y="463" width="1511" height="1067" key="dock-window-1" timestamp="1598882235401">
+      <screen x="1920" y="16" width="1680" height="1050" />
+    </state>
+    <state x="2351" y="463" width="1511" height="1067" key="dock-window-1/0.0.1920.1080/1920.16.1680.1050@0.0.1920.1080" timestamp="1598882235401" />
+    <state x="2128" y="443" width="1511" height="1067" key="dock-window-2" timestamp="1598882235401">
+      <screen x="1920" y="16" width="1680" height="1050" />
+    </state>
+    <state x="2128" y="443" width="1511" height="1067" key="dock-window-2/0.0.1920.1080/1920.16.1680.1050@0.0.1920.1080" timestamp="1598882235401" />
   </component>
 </project>
